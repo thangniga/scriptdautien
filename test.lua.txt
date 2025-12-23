@@ -1,8 +1,8 @@
-loadstring(game:HttpGet(("")))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/thangniga/scriptdautien/refs/heads/main/test.lua.txt")))()
 
        local Window = MakeWindow({
          Hub = {
-         Title = "bomayhack",
+         Title = "🥵",
          Animation = "🤑"
          },
         Key = {
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("")))()
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=140522428954622",
+       Image = "http://www.roblox.com/asset/?id=8881175166",
        Size = {30, 30},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -30,7 +30,12 @@ loadstring(game:HttpGet(("")))()
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "xây thuyền"})
+     local Tab1o = MakeTab({Name = "build a boat"})
+local Tab2o = MakeTab({Name = "câu cá"})
+local Tab3o = MakeTab({Name = "nhạc"})
+local Tab4o = MakeTab({Name = "bay"})
+local Tab5o = MakeTab({Name = "đồ hoạ"})
+local Tab6o = MakeTab({Name = "mod nhiều game khác"})
      
 ------- BUTTON
     
@@ -74,7 +79,7 @@ loadstring(game:HttpGet(("")))()
     
 })
 
-    AddButton(Tab5o, {
+    AddButton(Tab6o, {
      Name = "mod game khác",
     Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Index-Hub-73721"))()
